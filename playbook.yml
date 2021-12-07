@@ -1,0 +1,8 @@
+---
+- name: This is Prelim Exam
+  hosts: ubuntu
+  roles:
+    - python
+    - java
+    - changemotd
+    - createuser
